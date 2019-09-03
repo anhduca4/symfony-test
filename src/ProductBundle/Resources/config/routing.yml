@@ -1,0 +1,6 @@
+product_homepage:
+    path:     /product
+    defaults: { _controller: ProductBundle:Default:index }
+category_homepage:
+    path:     /category
+    defaults: { _controller: ProductBundle:Category:index }
